@@ -1,5 +1,3 @@
-import React from 'react';
-
 const postsReducer = (state = [], action) => {
     switch (action.type) {
         case 'FETCH_POSTS':
